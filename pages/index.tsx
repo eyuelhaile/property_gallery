@@ -87,9 +87,6 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               <li>
                 <a href="tel:+251985848484">(+251)9 85 848484 </a>
               </li>
-              <li>
-              <a href="tel:+251986 848484">(+251)9 86 848484 </a>
-              </li>
             </u>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
